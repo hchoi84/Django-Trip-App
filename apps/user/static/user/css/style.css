@@ -1,0 +1,72 @@
+/* *{
+    border: 1px dotted red;
+} */
+
+.container{
+    padding-top: 30px;
+    margin: auto;
+    width: 80%;
+}
+.welcome_box, .box_header{
+    margin-bottom: 30px;
+}
+
+.box{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_box{
+    display: inline-block;
+    width: 48%;
+}
+
+.right_box{
+    display: inline-block;
+    width: 48%;
+}
+
+.button_box{
+    position: relative;
+    text-align: end;
+    margin-right: 50px;
+}
+
+.review_box{
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+}
+
+.books_list{
+    overflow-y: auto;
+    height: 300px;
+}
+
+.header_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.indent{
+    margin-left: 30px;
+}
+
+.review{
+    width: 100%;
+    overflow-y: auto;
+}
+
+.rating {
+    font-size: 22px;
+    background: #FFF;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    opacity: 1;
+}
+
+.error{
+    color: red;
+}
